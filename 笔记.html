@@ -1,37 +1,38 @@
 一、git clone https://gitee.com/xuexiluxian/vue-tea.git
 
 
-	***在主分支下克隆的代码
+***在主分支下克隆的代码
 
 
 二、指定分支克隆代码
 
-	git clone -b 分支名称 地址
+git clone -b 分支名称 地址
 
 
 三、是在远程的dev分支下，但是上传代码在某一个分支上
-	
-	3.0 配置本地身份
 
-		git config user.name '小鹿线-张三三'
-		git config user.email 'xx@163.com'
+3.0 配置本地身份
 
-	3.1 dev分支下看一下日志
+git config user.name '小鹿线-张三三'
+git config user.email 'xx@163.com'
 
-		git log 
+3.1 dev分支下看一下日志
 
-		**记录hash：0fd8cb514e6b74f871f75044978c1c8c95c251ad
+git log
 
-	3.2 远程分支拉到本地仓库
+**记录hash：0fd8cb514e6b74f871f75044978c1c8c95c251ad
 
-		git checkout --track origin/feature/home
+3.2 远程分支拉到本地仓库
 
-	3.3 将dev分支commit对应的hash值提交的代码合并在home分支上
+git checkout --track origin/feature/home
 
-		git cherry-pick hash码
+3.3 将dev分支commit对应的hash值提交的代码合并在home分支上
 
+git cherry-pick hash码
 
+3.4 git clone
+3.5 git add .
+3.6 git commit -m "revise"
+3.7 git push origin main
 
 项目链接：http://m.tea7.com/index.htm
-
-
