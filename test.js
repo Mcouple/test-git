@@ -13,6 +13,12 @@ const obj = {
   age: 12
 }
 
+//暂存修改
+const objStatus = {
+  age: 12,
+  name: 'lisa'
+}
+
 //本地提交修改的测试
 const array = {
   a: 1,

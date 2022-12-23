@@ -7,4 +7,10 @@
 //我是本地2
 
 //远程修改测试
-const array = [1,2,3,4,5,6]
+const array = [1, 2, 3, 4, 5, 6]
+
+//暂时修改
+const abc = {
+  name: "obj",
+  age: 12
+}
