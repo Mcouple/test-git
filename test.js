@@ -9,6 +9,12 @@ const lisa = "Lisa"
 
 //远程修改
 const obj = {
-  name:'lisa',
-  age:12
+  name: 'lisa',
+  age: 12
+}
+
+//本地提交修改的测试
+const array = {
+  a: 1,
+  b: 2
 }
