@@ -1,0 +1,1 @@
+let str = "macbookpro 14"
