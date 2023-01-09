@@ -2,6 +2,6 @@
 const dev = [1, 2, 3, 4, 5, 6]
 const devTest = [1, 2, 3, 4, 5, 6]
 
-
+let str = 'macpro'
 //dev新增内容
 const devRds = { name: "hello" }
