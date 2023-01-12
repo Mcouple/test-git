@@ -2,6 +2,8 @@ let test = function () {
   console.log("html")
 }
 
+let teststr = "macbook"
+
 const Array = [1, 2, 3, 4, 5, 6]
 
 const moon = "moon"
